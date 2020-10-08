@@ -1,8 +1,18 @@
 body {
 	background-color: #FDFCE7
 }
-p {
+p.solid {
 	border: 5px solid black;
-	padding: 30px;
+	outline-style: solid;
+	outline-color: black
+	outline-width: 5px;
 	}
-
+	body {
+    display: block;
+    margin: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    border: 18px solid black;
+}
