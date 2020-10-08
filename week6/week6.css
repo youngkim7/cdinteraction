@@ -1,6 +1,8 @@
 body {
-	background-color: #000000
-}
-h1 {
 	background-color: #FDFCE7
 }
+p {
+	border: 5px solid black;
+	padding: 30px;
+	}
+
