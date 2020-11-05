@@ -1,0 +1,63 @@
+<style type="text/css">
+
+body{
+	background-color:black;
+
+}
+
+h1 {
+	color:orange;
+	font-family: 'Press Start 2P',
+	font-size: 200%;
+}
+
+h2 {
+	color:orange;
+	font-family: 'Press Start 2P',
+	font-size: 200%;
+}
+
+h3 {
+	color:orange;
+	font-family: 'Press Start 2P',
+	font-size: 200%;
+}
+
+.Cube1{
+	position: absolute;
+width: 551px;
+height: 580px;
+left: 865px;
+top: 323px;
+
+background: #FFFFFF;
+border-radius: 118px;
+}
+
+.Cube2{
+	position: absolute;
+width: 551px;
+height: 580px;
+left: 37px;
+top: 323px;
+
+background: #FFFFFF;
+border-radius: 118px;
+}
+
+</style>
+<body>
+	<nav>
+		
+	</nav>
+<div class = "Cube1">
+<svg width="551" height="580" viewBox="0 0 551 580" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="551" height="580" rx="118" fill="white"/>
+</svg>
+</div>
+
+<div class = "Cube2">
+<svg width="551" height="580" viewBox="0 0 551 580" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="551" height="580" rx="118" fill="white"/>
+</svg>
+</div>
