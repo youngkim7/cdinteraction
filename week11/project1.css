@@ -1,0 +1,292 @@
+body {
+   position: relative;
+  width: 100vw;
+  height: 3000px;
+  background: #FFFFFF;
+  margin: 0;
+  font-family: Krona One, sans-serif;
+}
+
+.button {
+  border: 1px solid #FF3F00;
+  box-sizing: border-box;
+  border-radius: 33.5px;
+  background-color: transparent;
+  display: inline-block;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position:absolute;
+  bottom:20px;
+  pointer-events:all;
+}
+
+.topsection{
+  position: absolute;
+width: 100%;
+height: 948px;
+left: 0px;
+top: 0px;
+
+background: #FFDC5F;
+}
+#fixed{
+  pointer-events:none;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:5;
+}
+
+
+.project,#fixed{
+   width:100vw;
+    height:100vh;
+}
+.project{
+  position:relative;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  
+}
+.heading{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  flex-flow:nowrap;
+  justify-content:space-around;
+}
+.numbering{
+  position:absolute;
+  top:0;
+  left:-40px;
+}
+
+
+
+
+/* enter */
+.button1 {
+  left:30px;
+  width: 240px;
+height: 67px;
+    padding: 15px 32px;
+
+font-family: Krona One;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+background-color: #FF3F00;
+color: white;
+}
+
+.button1:hover {
+  background-color: #F63E02;
+  color: white;
+}
+
+.button2 {
+  right:30px;
+width: 67px;
+height: 67px;
+color: #FF3F00;
+  font-family: Krona One;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 22px;
+text-align: center;
+background-color: #FF3F00;
+color: white;
+}
+
+.button2:hover {
+  background-color: #F63E02;
+  color: white;
+}
+
+.button3 {
+/*   position: Sticky; */
+  left:50%;
+width: 196px;
+height: 33px;
+transform:translateX(-50%);
+  border: none;
+
+font-family: Krona One;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 22px;
+text-align: center;
+
+color: #FF3F00;
+}
+
+.button3:hover {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FF3F00;
+}
+
+/* .project1 {
+  position: absolute;
+width: 523.35px;
+height: 775.37px;
+left: 473px;
+top: 57.15px;
+}
+ */
+img {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+img:hover {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(3.96deg);
+  -moz-transform: rotate(3.96deg);
+  -o-transform: rotate(3.96deg);
+  -ms-transform: rotate(3.96deg);
+  transform: rotate(3.96deg);
+} 
+
+.image{
+  position:relative;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width: 1;
+  
+}
+}
+
+/* 01 */
+h1 {
+font-family: Krona One;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 180px;
+text-align: center;
+color: #F63E02;
+}
+
+/* Project 1 */
+/* h2 {
+  position: absolute;
+width: 986.92px;
+height: 189.32px;
+left: 289px;
+top: 265px;
+
+font-family: Krona One;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 180px;
+text-align: center;
+
+color: #FF3F00;
+}
+ */
+/* 02 */
+/* h3 {
+position: absolute;
+width: 275.92px;
+height: 188.62px;
+left: -83px;
+top: 1226.12px;
+
+font-family: Krona One;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 180px;
+text-align: center;
+
+color: #FAF2DD;
+} */
+/* Project 2 */
+/* h4 {
+position: absolute;
+width: 1015.92px;
+height: 189.01px;
+left: 289px;
+top: 1190.12px;
+
+font-family: Krona One;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 180px;
+text-align: center;
+
+color: #FAF2DD;
+}
+ */
+/* 03 */
+/* h5 {
+position: absolute;
+width: 275.92px;
+height: 188.62px;
+left: -83px;
+top: 2177.12px;
+
+font-family: Krona One;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 180px;
+text-align: center;
+
+color: #F63E02;
+} */
+/* Project 3 */
+/* h6 {
+position: absolute;
+width: 1015.92px;
+height: 189.01px;
+left: 289px;
+top: 2090.44px;
+
+font-family: Krona One;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 180px;
+text-align: center;
+
+color: #FF3F00;
+} */
+
+
+
+.topnav {
+  overflow: hidden;
+   font-family: avenir, sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: #F63E02;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: transparent;
+  color: white;
+}
+}

@@ -1,0 +1,90 @@
+body {
+  background-color: #3F1D06;
+  margin: 2em;
+  position: relative;
+  width: 1440px;
+  height: 900px;
+}
+
+/* YOUNG KIM */
+h1 {
+  font-family: Krona One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 144px;
+  line-height: 180px;
+  text-align: center;
+  color: #FF3F00;
+  position: absolute;
+  width: 1133px;
+  height: 199px;
+  left: 153px;
+  top: 236.5px;
+}
+
+
+.button {
+  border: 1px solid #F63E02;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: transparent;
+  padding: 15px 32px;
+  display: inline-block;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+/* enter */
+.button1 {
+  position: absolute;
+  width: 275px;
+  height: 60px;
+  left: 593px;
+  top: 586px;
+  text-align: center;
+  font-family: Krona One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #F63E02;
+}
+
+.button1:hover {
+  background-color: #F63E02;
+  color: #FAF2DD;
+}
+
+
+.square {
+  position: absolute;
+  width: 515.87px;
+  height: 611.91px;
+  left: 441.34px;
+  top: 200px;
+  background: #FAF2DD;
+  transform: rotate(-4.56deg);
+}
+
+
+
+
+/* interior architecture graphic design creative direction web design */
+p1 {
+  color: black;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FF3F00;
+  position: absolute;
+  width: 1127.04px;
+  height: 35.08px;
+  left: 156px;
+  top: 525px;
+  font-family: Krona One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
