@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shoot for the moon</title>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700;900&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<style type="text/css">
+	html, body {
+		width: 100%;
+		background-color: #000000; 
+		padding-top: 25px;
+		padding-bottom: 25px; 
+	}
+	.left {
+		position:fixed;
+		width: 134px;
+		height: 29px;
+		left: 20px;
+		top: 431px;
+
+		font-family: Space Mono;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		line-height: 27px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+
+		color: #baa5ff;
+
+		transform: rotate(-90deg);
+	}
+	.right {
+		position: fixed;
+		width: 134px;
+		height: 29px;
+		left: 1510px;
+		top: 489px;
+
+		font-family: Space Mono;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		line-height: 27px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+
+		color: #baa5ff;
+
+		transform: rotate(90deg);
+	}
+	.header {
+		position:sticky;
+		height: 10vh;
+		text-align: center;
+		padding-bottom: 110px;
+		top: 40px;
+		background-color:#000000;
+	}
+	.header h1 {
+		font-family: 'Rubik', sans-serif; 
+		font-size: 64px;
+		font-weight: 900; 
+		color: #baa5ff; 
+		padding: 0;
+		margin: 0; 
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		transition: all 1s ease; 
+		cursor: pointer
+	}
+	.header h1:hover {
+		letter-spacing: 0.2em;
+	}
+	.header p {
+		font-family: 'Space Mono', monospace;
+		color: #baa5ff; 
+		line-height:0;
+	}
+	.section {
+		width:100%;
+		height: 50vh;
+		overflow-y:visible; 
+		position: relative;
+		display: flex; 
+		justify-content: center;
+		align-items: center; 
+	}
+	.section p {
+		font-family: Rubik, sans-serif;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 37px;
+		text-align: right;
+		color: #baa5ff;
+	}
+	.emoji svg {
+		width: 80%;
+		float: right;
+		z-index: 0; 
+		padding: 5% 0%; 
+		overflow: visible;
+	}
+	.section2 {
+		width:100%;
+		height: 50vh;
+		right: 3%;
+		top:0;
+		overflow-y:visible; 
+		position: relative;
+		display: flex; 
+		justify-content: center;
+		align-items: center; 
+	}
+	.section2 p {
+		font-family: Rubik, sans-serif;
+		font-weight: bold;
+		font-size: 30px;
+		padding-top: 150px;
+		line-height: 37px;
+		text-align: left;
+		color: #baa5ff;
+	}
+	.section2 svg {
+		width: 40%;
+		float: left;
+		z-index: 0; 
+		padding: 5% 0%; 
+		overflow: visible;
+	}
+	.section3 {
+		width:100%;
+		height: 80vh;
+		top:30vh;
+		overflow-y:visible; 
+		position: relative;
+		display: flex; 
+		justify-content: center;
+		align-content: center; 
+	}
+	.section3 svg {
+		width: 50%;
+		z-index: 0; 
+		padding: 5% 0%; 
+		overflow: visible;
+	}
+	.line p {
+		font-family: Rubik, sans-serif;
+		font-weight: bold;
+		font-size: 30px;
+		margin-top: -5rem;
+		line-height: 37px;
+		text-align: center;
+		color: #baa5ff;
+	}
+	.rotate {
+		cursor: pointer; 
+		transition: transform 1s ease;
+	}
+	.rotate:hover {
+		transform:rotate(180deg);
+	}
+	.shake {
+		cursor: pointer; 
+	}
+	.shake:hover {
+		animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
+  		transform: translate3d(0, 0, 0);
+ 		backface-visibility: hidden;
+  		perspective: 1000px;
+	}
+	@keyframes shake {
+	  10%, 90% {
+	    transform: translate3d(-1px, 0, 0);
+	  }
+	  
+	  20%, 80% {
+	    transform: translate3d(2px, 0, 0);
+	  }
+
+	  30%, 50%, 70% {
+	    transform: translate3d(-4px, 0, 0);
+	  }
+
+	  40%, 60% {
+	    transform: translate3d(4px, 0, 0);
+	  }
+	}
+	.animation {
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: dash 4s linear alternate infinite;
+	}
+	@keyframes dash {
+	  from {
+	    stroke-dashoffset: 822;
+	  }
+	  to {
+	    stroke-dashoffset: 0;
+	  }
+	}
+	.blur {
+		cursor: pointer; 
+		-webkit-transition: all 0.5s ease;
+	}
+	.blur:hover {
+ 		webkit-filter: blur(4px);
+   		filter: blur(20px);
+	}
+	.home {
+		display:flex;
+		align-items:flex-end;
+		justify-content:center;
+		padding-top: 80px;
+<<<<<<< HEAD
+
+		stroke-width:10;
+=======
+>>>>>>> 6da02ca4f62b91d6ce5e71f9ce1bc5f07b17688f
+	}
+</style>
+<body>
+	<div class='left'>
+		<p>Star struck</p>
+	</div>
+	<div class='right'>
+		<p>Moon Light</p>
+	</div>
+	<div class='header'>
+		<h1>To the Moon</h1>
+		<p>Shoot for the stars and land on the moon</p>
+	</div> 
+<!-- section 1 --> 
+	<div class='section'>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player class="rotate" src="https://assets3.lottiefiles.com/packages/lf20_KUFdS6.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+		<p>Look at the<br>clouds</p>
+		<div class='emoji'>
+		</div>
+	</div>
+<!-- section 2 -->
+	<div class='section2'>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets8.lottiefiles.com/datafiles/37eUecfCINgL4BgFY1NcvncT1LRajr8hJkkfQ9DY/star/star.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover loop  ></lottie-player>
+		</svg>
+		<p>Shoot<br>for the<br>stars</p>
+	</div>
+<!-- section 3 -->
+	<div class='section3'>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_8ewr9en7.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover loop  ></lottie-player>
+	</div>
+	<div class='line'>
+		<p>Land<br>on<br>the moon</p> 
+	</div>
+	<!-- section 4 -->
+	<div class='home'>
+		<svg width="57" height="51" viewBox="0 0 57 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<g clip-path="url(#clip0)">
+		<path d="M33.0691 49.6041C33.0691 50.2322 33.5767 50.7346 34.2113 50.7346H51.5003C52.1349 50.7346 52.6425 50.2322 52.6425 49.6041V27.2166C52.6425 26.5885 52.1349 26.086 51.5003 26.086C50.8657 26.086 50.358 26.5885 50.358 27.2166V48.4736H35.3677V36.6378C35.3677 36.0097 34.86 35.5072 34.2254 35.5072H22.9721C22.3375 35.5072 21.8298 36.0097 21.8298 36.6378V48.7388H6.64204V25.6952C6.64204 25.0672 6.13437 24.5647 5.49978 24.5647C4.8652 24.5647 4.35753 25.0672 4.35753 25.6952V49.8693C4.35753 50.4974 4.8652 50.9998 5.49978 50.9998H22.9862C23.6208 50.9998 24.1284 50.4974 24.1284 49.8693V37.7683H33.0832V49.6041H33.0691Z" fill="#D5CABC"/>
+		<path d="M56.5777 22.2612L29.1212 0.250563C28.6982 -0.0844128 28.1059 -0.0844127 27.6969 0.236605L0.437899 21.4936C-0.0556689 21.8844 -0.14028 22.5962 0.240472 23.0847C0.635326 23.5732 1.35452 23.657 1.84809 23.2662L28.3879 2.58143L55.1252 24.0199C55.3367 24.1873 55.5905 24.2711 55.8444 24.2711C56.1828 24.2711 56.5072 24.1315 56.7328 23.8524C57.1418 23.3778 57.0571 22.652 56.5777 22.2612Z" fill="#D5CABC"/>
+		</g>
+		<defs>
+		<clipPath id="clip0">
+		<rect width="57" height="51" fill="white"/>
+		</clipPath>
+		</defs>
+		</svg>
+	</div>
+</body>
+</html>
